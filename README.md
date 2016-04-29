@@ -13,7 +13,7 @@ __END__
 
 wget -qO - https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
 apt-get update
-apt-get install nodejs npm
+apt-get install nodejs
 
 ```
 
