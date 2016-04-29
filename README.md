@@ -22,5 +22,5 @@ apt-get install nodejs
 ```
 #!bash
 
-npm install -g git@bitbucket.org:nedcl/comskip-nodejs.git
+npm install -g git://git@bitbucket.org:nedcl/comskip-nodejs.git
 ```
