@@ -11,7 +11,7 @@ deb https://deb.nodesource.com/node_4.x trusty main
 deb-src https://deb.nodesource.com/node_4.x trusty main
 __END__
 
-wget -qO - https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
+wget -qO - https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
 apt-get update
 apt-get install nodejs
 
