@@ -24,3 +24,5 @@ apt-get install nodejs
 
 npm install -g git://git@bitbucket.org:nedcl/comskip-nodejs.git
 ```
+
+* Note: root user (able to install globally) needs a deployment public key
