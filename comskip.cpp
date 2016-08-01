@@ -158,9 +158,17 @@ void comskip_run(const v8::FunctionCallbackInfo<v8::Value>& args)
     args.GetReturnValue().Set(Undefined(isolate));
 }
 
+void comskip_stop(const v8::FunctionCallbackInfo<v8::Value>& args)
+{
+    Isolate* isolate = args.GetIsolate();
+    comskip_decode_loop_stop();
+    args.GetReturnValue().Set(Undefined(isolate));
+}
+
 void init(Handle<Object> exports, Handle<Object> module)
 {
     NODE_SET_METHOD(exports, "run", comskip_run);
+    NODE_SET_METHOD(exports, "stop", comskip_stop);
 }
 
 NODE_MODULE(comskip, init)
