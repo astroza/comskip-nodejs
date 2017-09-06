@@ -22,7 +22,7 @@ apt-get install nodejs
 ```
 #!bash
 
-npm install -g git://git@bitbucket.org:nedcl/comskip-nodejs.git
+npm install -g https://github.com/astroza/comskip-nodejs.git
 ```
 
 * Note: root user (able to install globally) needs a deployment public key
