@@ -24,5 +24,3 @@ apt-get install nodejs
 
 npm install -g https://github.com/astroza/comskip-nodejs.git
 ```
-
-* Note: root user (able to install globally) needs a deployment public key
